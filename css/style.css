@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--roboto);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.title {
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 20px;
+}
+.title h3 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.title h4 {
+    font-size: 30px;
+    color: #b3b3b3;
+    font-weight: 400;
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+    border: 1px solid blue;
+}
